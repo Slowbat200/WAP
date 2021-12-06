@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>Test web</title>
+    <link href="web.css" rel="stylesheet" type="text/css" />
+</head>
+    <body>   
+ <h1>Formulář knih</h1>
+ <button onclick="myFunction()">Toggle dark mode</button>
+ <p>Zde najdete tabulku s věkovou skupinou lidí od 1 roku do 120 let</p>
+Zadejte Věk:<input type="text" name="vek" id="vek"><br><br>
+<label for="books">Počet přečtených knih[kusy]</label>
+<input
+id = "books"
+name="books"
+type="number"
+min="1"
+max="500"
+step="1"
+required
+/>  
+
+<input type="submit">
+<table id="table" border="2">
+    <tr>
+        <th>Vek</th>
+        <th>Pocet knih</th>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<!--Jakub Pavlovič a Jiří Fuks -->
+  <script src="web.js"></script>
