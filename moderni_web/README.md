@@ -6,3 +6,4 @@ Zde dám pár screenshotů.
 ![2 stránka](https://user-images.githubusercontent.com/92738343/155015540-a8430be7-f642-4485-8509-cf22a4d6185e.png)
 ![3 stránka](https://user-images.githubusercontent.com/92738343/155015552-031aa72c-4b17-4dff-8846-51e8dbbf17f2.png)
 ![4 stránka](https://user-images.githubusercontent.com/92738343/155015559-9bdaa77b-6543-4f4f-bf9b-57233ecf4a9d.png)
+Odkaz na mojí stránku: http://slowbat200.xf.cz/
