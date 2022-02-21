@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+h1 {
+  text-align: center;
+  border: 25px;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+h2{font-size: 28px;color: rgb(158, 42, 42); text-align: center; margin: 45px;}
+h3{font-size: 26px;color: rgb(153, 42, 42); text-align: center; margin: 45px;}
+h4{font-size: 24px;color: rgb(187, 192, 202); text-align: center; margin: 45px;}
+h5{font-size: 22px;color: rgb(106, 105, 209); text-align: center; margin: 45px;}
+h6{font-size: 21px;color: rgb(168, 146, 218); text-align: center; margin: 45px;}
+p{
+  padding: 10px;
+  color: #fff;
+  text-shadow: 0 12px 10px #808080;
+  font-size: 17px;
+  margin: 15px;
+}
+footer{
+  position: absolute;
+  top: 7500px;
+  left: 0;
+}
+img{
+  width: 650px;
+  height: 300px;
+  justify-content: center;
+  margin: 5px;
+  display: flex;
+}
+@media only screen and (min-width: 600px){
+    img{
+        width: 800px;
+        height: 450px;
+    }
+}
+body{
+  background: url(/fotky/csgo.png);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #fff;
+}
+a{
+  height: 20px;
+  width: 20px;
+  color: #800080;
+}

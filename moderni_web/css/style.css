@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1 {
+  text-align: center;
+  border: 25px;
+  color: black;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 28px;
+  color: #9e2a2a;
+  text-align: center;
+  margin: 45px;
+}
+
+h3 {
+  font-size: 26px;
+  color: #992a2a;
+  text-align: center;
+  margin: 45px;
+}
+
+h4 {
+  font-size: 24px;
+  color: #bbc0ca;
+  text-align: center;
+  margin: 45px;
+}
+
+h5 {
+  font-size: 22px;
+  color: #6a69d1;
+  text-align: center;
+  margin: 45px;
+}
+
+h6 {
+  font-size: 21px;
+  color: #a892da;
+  text-align: center;
+  margin: 45px;
+}
+
+p {
+  padding: 10px;
+  color: #fff;
+  text-shadow: 0 12px 10px #808080;
+  font-size: 17px;
+  margin: 15px;
+}
+
+footer {
+  position: absolute;
+  top: 7500px;
+  left: 0;
+}
+
+img {
+  width: 650px;
+  height: 300px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (min-width: 600px) {
+  img {
+    width: 800px;
+    height: 450px;
+  }
+}
+
+body {
+  background: url(/fotky/csgo.png);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #fff;
+}
+
+a {
+  height: 20px;
+  width: 20px;
+  color: #800080;
+}
+/*# sourceMappingURL=style.css.map */
