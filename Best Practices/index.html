@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="myFunction()">Toggle dark mode</button>
+    <header id="top">
+        <h1>Best practices</h1>
+        <nav>
+            <ul>
+                <li><a href="#article-one">Article One</a></li> 
+                <li><a href="#article-two">Article Two</a></li>
+                <li><a href="#article-three">Article Three</a></li>
+                <li><a href="#article-four">Article Four</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="article-one">
+            <h2>Article One</h2>
+            <blockquote>
+                Curabitur sit amet dolor maximus, facilisis nisl eu, eleifend dolor.
+                Nulla facilisi. Sed ultrices elementum mi, eu auctor ullamcorper ut.
+            </blockquote>
+            <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+               Nulla rem ratione debitis doloremque quis nemo velit fuga eligendi corrupti aliquid, 
+               incidunt omnis fugiat, quasi possimus sapiente libero eos quidem laborum?
+            </p>
+        </article>
+        <article id="article-two">
+            <h2>Article Two</h2>
+            <h3>Table</h3>
+            <table>
+                <tr>
+                    <td>1.</td>
+                    <td>254</td>
+                    <td>470</td>
+                    <td>652</td>
+                </tr>
+            </table>
+            <h3>Image</h3>
+            <figure>
+                <img src="https://static.centreon.com/wp-content/uploads/2020/04/Centreon-supervisionIT-bonnespratiques.jpg?x48959" alt="Best_practices"/>Best_practices
+            </figure>
+        </article>
+        <article id="article-three">
+            <h4>Article Three</h2>
+            <h5>Registration</h3>
+            <form>
+                <fieldset>
+                    <legend>Registration data</legend>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="pass">Password:</label>
+                    <input type="password" id="pass" name="pass"><br>
+                    <label for="role">Role:</label>
+                    <select id="role" name="role">
+                        <option value="student">student</option>
+                        <option value="teacher">teacher</option>
+                        <option value="other">other</option>
+                    </select><br>
+                    <label for="mess">Message:</label>
+                    <textarea name="message"></textarea><br>
+                    <input type="submit" value="Register">
+                </fieldset>
+            </form>
+        </article>
+    </main>
+    <footer>
+        <a href="https://en.wikipedia.org/wiki/Best_practice">
+    </footer>
+    </body>
+</html>
