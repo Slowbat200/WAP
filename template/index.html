@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+      <tr>
+          <th>Destination</th>
+          <th>Time</th>
+          <th>Flight_code</th>
+          <th>Gate</th>
+          <th>Status</th>
+      </tr>
+      <tr>
+          <td>London</td>
+          <td class="time">13:00</td>
+          <td>PRG</td>
+          <td>A1</td>
+          <td>ON TIME</td>
+      </tr>
+      <tr>
+        <td>Berlin</td>
+        <td class="time">11:00</td>
+        <td>SXF</td>
+        <td>B3</td>
+        <td>DELAYED</td>
+    </tr>
+    <tr>
+        <td>New York</td>
+        <td class="time">10:30</td>
+        <td>BTS</td>
+        <td>C2</td>
+        <td class="Cancel">CANCELED</td>
+    </tr>
+    </table>
+    <div class="top"><span>&#9992;</span><b>Flight table</b><span>&#9992;</span></div>
+    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+    <script src="script.js"></script>
+</body>
+</html>

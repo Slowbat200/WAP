@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: #000;
+}
+.top{
+    width: 80%;
+    height: 40px;
+    background-color: rgb(199, 197, 55);
+    position: absolute;
+    top: 45px;
+    left: 120px;
+    font-size: 25px;
+    text-align: center;
+    border-left: 3px solid #fff;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+.clock {
+    position: absolute;
+    top: 9%;
+    left: 80%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #000;
+    font-size: 20px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
+
+table, th{
+   
+    margin: 17em;
+    color: #fff;
+    font-size: 20px;
+    width: 50em;
+    
+  }
+  td{
+      padding: 10px;
+      font-size: 15px;
+      box-sizing: border-box;
+      color: #fff;
+      text-align: center;
+      border-right: 2px solid #fff;
+      border-top: 2px solid #fff;
+      border-bottom: 2px solid #fff;
+      border-left: 2px solid #fff;
+      width:50em;
+      height: 5em;
+  }
+  .time{
+      animation: blinking 3s infinite;
+      font-size: 15px;
+      animation-delay: 4s;
+  }
+  @keyframes blinking {
+      0%{color: #fff;}
+      15%{color: transparent;}
+      40%{color: #008000;}
+      60%{color: transparent;}
+      100%{color: #fff;}   
+  }
+  .Cancel{
+      animation: Blink 3s infinite;
+  }
+  @keyframes Blink {
+      0%{color: #ff0000;}
+      25%{color: transparent;}
+      50%{color: #ff0000;}
+      75%{color: transparent;}
+      100%{color: #ff0000;}
+  }
+  @media only screen and (max-width: 1000px){
+      .clock{
+        position: absolute;
+        top: 5%;
+        left: 81%;
+        font-size: 15px;
+        letter-spacing: 5px;
+        color: #000;
+        }
+      .top{
+        width: 60%;
+        height: 40px;
+          background-color: rgb(199, 197, 55);
+          position: absolute;
+          top: 45px;
+          left: 300px;
+          font-size: 25px;
+          text-align: center;
+          border-left: 3px solid #fff;
+          border-top: 3px solid #fff;
+          border-right: 3px solid #fff;
+          border-bottom: 3px solid #fff;
+      }
+     
+  }
+ 
