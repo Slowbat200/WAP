@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>front-end website</title>
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/content.css" />
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <!--neon_header-->
+    <div class="header">
+      <h1 class="title" style="--duration: 1s">
+        <span style="--delay: 0.5s">Hello user</span>
+        <span style="--delay: 0.8s">Welcome to my website</span>
+      </h1>
+    </div>
+    <!--sidebar-->
+    <div class="navigation">
+      <div class="menuToggle"></div>
+      <ul>
+        <li class="list" style="--clr: #240c84">
+          <a href="#">
+            <span class="icon"><ion-icon name="logo-html5"></ion-icon></span>
+            <span class="text">HTML</span>
+          </a>
+        </li>
+        <li class="list" style="--clr: #370ae8">
+          <a href="#">
+            <span class="icon"
+              ><ion-icon name="logo-css3"></ion-icon></span>
+            <span class="text">CSS</span>
+          </a>
+        </li>
+        <li class="list" style="--clr: #1717c9">
+          <a href="#">
+            <span class="icon"><ion-icon name="logo-javascript"></ion-icon></span>
+            <span class="text">JS</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!--sidebar_javascript-->
+    <script>
+      const menuToggle = document.querySelector(".menuToggle");
+      const navigation = document.querySelector(".navigation");
+      menuToggle.onclick = function () {
+        navigation.classList.toggle("open");
+      };
+      const list = document.querySelectorAll(".list");
+      function activeLink() {
+        list.forEach((item) => item.classList.remove("active"));
+        this.classList.add("active");
+      }
+      list.forEach((item) => item.addEventListener("click", activeLink));
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!--content-->
+    <div class="content">
+      <div class="box"><p>This website is for begginer web developer</p>></div>
+      <div class="box"><p>What can you learn here?</p></div>
+      <img src="photos/html.png" alt="" srcset="" />
+    </div>
+  </body>
+</html>
